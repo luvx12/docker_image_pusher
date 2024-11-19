@@ -1,5 +1,17 @@
-nginx
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
 --platform=linux/amd64 xiaoyaliu/alist
+--platform=linux/arm64 debian:11
+--platform=linux/arm64 debian:11-slim
+--platform=linux/arm64 debian:12
+--platform=linux/arm64 debian:12-slim
+--platform=linux/arm64 debian:bookworm
+--platform=linux/arm64 debian:bullseye
+--platform=linux/arm64 debian:latest
+--platform=linux/arm64 nginx
+--platform=linux/arm64 ubuntu:focal
+--platform=linux/arm64 ubuntu:jammy
+--platform=linux/arm64 ubuntu:latest
+--platform=linux/arm64 ubuntu:noble
+--platform=linux/arm64 ubuntu:oracular
+--platform=linux/arm64 ubuntu:rolling
+--platform=linux/arm64 xhofe/alist:latest
+--platform=linux/arm64 xiaoyaliu/alist
