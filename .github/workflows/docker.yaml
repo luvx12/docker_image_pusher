@@ -116,7 +116,7 @@ jobs:
             else
                 platform_prefix="_${platform//\//_}"
                 # 默认arm
-                if [ "$platform_prefix" =~ "arm" ];then
+                if [[ "$platform_prefix" =~ "arm" ]];then
                     platform_prefix=""
                 fi
             fi
