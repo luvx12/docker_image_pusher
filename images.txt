@@ -12,7 +12,7 @@
 --platform=linux/arm64 debian:bookworm
 --platform=linux/arm64 debian:bullseye
 --platform=linux/arm64 debian:latest
---platform=linux/arm64 dicedb/dicedb:latest
+--platform=linux/amd64 dicedb/dicedb:latest
 --platform=linux/arm64 docker:latest
 --platform=linux/arm64 dockurr/dnsmasq:latest
 --platform=linux/arm64 dockurr/windows-arm:latest
